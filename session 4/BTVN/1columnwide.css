@@ -1,0 +1,20 @@
+h2{
+	padding-left: 50px;
+}
+body{
+    float: left;
+    margin-left: 50px;
+}
+header , footer{
+	height: 50px;
+	width: 300px;
+	margin: 5px;
+	background-color: orange;
+}
+section{
+	height: 200px;
+	width: 300px;
+	margin:9px;
+	margin-left: 5px;
+	background-color: orange;
+}

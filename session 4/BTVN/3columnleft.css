@@ -1,0 +1,28 @@
+h2{
+	padding-left: 50px;
+}
+body{
+	float: left;
+	margin-left: 5px;
+}
+header , footer {
+	height: 50px;
+	width: 300px;
+	margin: 5px;
+	background-color: orange;
+	clear: both;
+}
+section {
+ 	float: left;
+	height: 200px;
+	width: 180px;
+	margin: 5px;
+	background-color: orange;
+}
+#aside1 , #aside2 {
+    float: left;
+	height: 200px;
+	width: 50px;
+	margin: 5px;
+	background-color: orange;
+}
