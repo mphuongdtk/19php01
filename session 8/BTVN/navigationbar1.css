@@ -1,0 +1,54 @@
+body{
+	margin: 20px auto;
+	width: 90%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+	list-style-type: none;
+	position: relative;
+}
+li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #5d5c5a;
+	float: left;
+	position: relative;
+}
+  li  a{
+ 	width: 190px;
+	text-align: center;
+	display: inline-block;
+	padding: 20px 0;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative;
+}
+ li a:hover{
+	background-color: #ff5722;
+}
+.hover{
+	background-color: #ff5722;
+}
+ul li > .service1{
+	display: none;
+	position: absolute;
+	padding-top: 0;
+    margin-left:  -21%;
+}
+ul li:hover > .service1{
+	display: block;
+}
+ul li > .service2{
+	display: none;
+	position: absolute;
+	padding-top: 0;
+  	margin-left: 78.5%;
+    margin-top: -33%;
+}
+ul li:hover > .service2{
+	display: block;
+}
+
