@@ -1,0 +1,17 @@
+
+#container {
+width: 210px;
+height: 211px;
+border: 2px solid gray;
+margin: 0 auto;
+background: #77cd5c;
+}
+#container > #ketqua{
+	width: 201px;
+	height: 33px;
+}
+#container > input{
+	width: 45px;
+	height: 38px;
+	margin: 2px;
+}

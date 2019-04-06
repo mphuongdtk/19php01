@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div id="container">
+		<input id="ketqua" placeholder="kết quả"><br/>
+		<input type="button" value="0" onclick="setnumber(this.value)" >
+		<input type="button" value="1" onclick="setnumber(this.value)" >
+		<input type="button" value="2" onclick="setnumber(this.value)" >
+		<input type="button" value="3" onclick="setnumber(this.value)" ><br>
+		<input type="button" value="4" onclick="setnumber(this.value)" >
+		<input type="button" value="5" onclick="setnumber(this.value)" >
+		<input type="button" value="6" onclick="setnumber(this.value)" >
+		<input type="button" value="7" onclick="setnumber(this.value)" ><br>
+		<input type="button" value="8" onclick="setnumber(this.value)" >
+		<input type="button" value="9" onclick="setnumber(this.value)" >
+		<input type="button" value="+" onclick="setnumber(this.value)" >
+		<input type="button" value="-" onclick="setnumber(this.value)" ><br>
+		<input type="button" value="=" onclick="giatri()">
+		<input type="button" value="del" onclick="xoa()">
+		<input type="button" value="*" onclick="setnumber(this.value)" >
+		<input type="button" value="/" onclick="setnumber(this.value)" >
+</div>
+<script>
+	var x=' ';
+function a(id){
+	return document.getElementById(id);
+}
+function setnumber(number){
+	x+=number;
+	a('ketqua').value=x;
+}
+function xoa(){
+	x=' ';
+	a('ketqua').value=x;
+}
+function giatri(){
+	a('ketqua').value=eval(a('ketqua').value);
+	x=a('ketqua').value;
+}
+</script>
+</body>
+</html>
