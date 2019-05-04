@@ -1,0 +1,64 @@
+#container{
+	margin: 0 auto;
+	width: 45%;
+	height: 730px;
+	border: 1px solid gray;
+	background: rgba(139, 139, 171, 0.22);
+}
+h1{
+	color: red;
+	text-align: center;
+	font-size: 35px;
+}
+form{
+	margin-left: 20px;
+}
+#result{
+    width: 83%;
+    height: 260px;
+    border: 2px solid red;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 0;
+    font-size: 16px;
+    color: #962020;
+    font-weight: bold;
+    padding-left: 25px;
+}
+#name{
+	margin-left: 60px;
+	width: 180px;
+	height: 19px;
+}
+#address{
+	width: 180px;
+	height: 19px;
+	margin-left: 57px;
+}
+#phone{
+	width: 180px;
+	height: 19px;
+	margin-left: 20px;
+}
+#firstday{
+	width: 180px;
+	height: 19px;
+	margin-left: 23px;
+}
+#lastday{
+	width: 180px;
+	height: 19px;
+	margin-left: 19px;
+}
+#number1{
+	width: 180px;
+	height: 19px;
+	margin-left: 40px;
+}
+#number2{
+	width: 180px;
+	height: 19px;
+	margin-left: 36px;
+}
+
+

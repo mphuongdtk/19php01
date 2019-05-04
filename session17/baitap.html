@@ -1,0 +1,58 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>EXERCISE</title>
+		<link rel="stylesheet" type="text/css" href="baitap.css">
+	</head>
+	<body>
+		<div id="container">
+		<form>
+			<h1>Bảng tính tiền điện</h1>
+			<h2 id="registerSuccess"></h2>
+			<p>Họ tên:
+			<input type="text" name="name" id="name">
+			<span id="errorName"></span>
+			</p>
+			<p>Địa chỉ:
+			<input type="text" name="address" id="address">
+			<span id="errorAddress"></span>
+			</p>
+			<p>Số điện thoại:
+			<input type="number" name="phone" id="phone">
+			<span id="errorPhone"></span>
+			</p>
+			
+			<p>Ngày đầu kỳ:
+			<input type="date" name="firstday" id="firstday">
+			<span id="errorFirstday"></span>
+			</p>
+			<p>Ngày cuối kỳ:
+			<input type="date" name="lastday" id="lastday">
+			<span id="errorLastday"></span>
+			</p>
+			<p>Số đầu kỳ:
+			<input type="number" name="number1" id="number1">
+			<span id="errorNumber1"></span>
+			</p>
+			<p>Số cuối kỳ:
+			<input type="number" name="number2" id="number2">
+			<span id="errorNumber2"></span>
+			</p>
+			<p><input type="button" name="check" value="Tính Tiền Điện" onclick="checkList()"></p>
+			<div  id="result">
+				<p id="hoten"></p>
+				<p id="diachi"></p>
+				<p id="sodienthoai"></p>
+				<p id="ngaydauky"></p>
+				<p id="ngaycuoiky"></p>
+				<p id="sodauky"></p>
+				<p id="socuoiky"></p>
+				<p id="tinhtiendien"></p>
+			</div>
+		</form>
+	</div>
+<script type="text/javascript" src="jquery-3.4.0.min.js"></script>
+<script type="text/javascript" src="baitap.js"></script>
+	</body>
+	</html>
