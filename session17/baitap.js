@@ -86,7 +86,7 @@ function tinhTienDien(){
 	else if ((TienDien> 100) && (TienDien <=300)){
 		 var tongTienDien = 100*1500 + (TienDien-100)*2000;
 	}
-	else if (TienDien>300){
+	else{
 		var tongTienDien = 100*1500 + 100*2000 + (TienDien-200)*3000;
 	}
 	document.getElementById('tinhtiendien').innerHTML = 'Số tiền điện: ' + tongTienDien + ' đồng';
