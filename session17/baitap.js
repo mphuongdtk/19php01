@@ -77,5 +77,17 @@ function checkList(){
 function tinhTienDien(){
 	var chuSoDau = document.getElementById('number1').value;
 	var chuSoCuoi = document.getElementById('number2').value;
-	var TienDien
+	var TienDien ;
+	TienDien= chuSoCuoi - chuSoDau;
+	var tongTienDien;
+	if(TienDien <= 100){
+		var tongTienDien = TienDien*1500;
+	} 
+	else if ((TienDien> 100) && (TienDien <=300)){
+		 var tongTienDien = 100*1500 + (TienDien-100)*2000;
+	}
+	else if (TienDien>300){
+		var tongTienDien = 100*1500 + 100*2000 + (TienDien-200)*3000;
+	}
+	document.getElementById('tinhtiendien').innerHTML = 'Số tiền điện: ' + tongTienDien + ' đồng';
 }

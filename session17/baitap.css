@@ -1,7 +1,7 @@
 #container{
 	margin: 0 auto;
 	width: 45%;
-	height: 730px;
+	height: 790px;
 	border: 1px solid gray;
 	background: rgba(139, 139, 171, 0.22);
 }
@@ -15,7 +15,7 @@ form{
 }
 #result{
     width: 83%;
-    height: 260px;
+    height: 286px;
     border: 2px solid red;
     box-sizing: border-box;
     margin: 0 auto;
