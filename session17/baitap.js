@@ -12,13 +12,14 @@ function checkList(){
 		document.getElementById('errorName').innerHTML = 'Hãy nhập họ tên!';
 		checkRegisterSuccess = false;
 	} else{
+		document.getElementById('errorName').innerHTML=' ';
 		document.getElementById('hoten').innerHTML='Họ tên: '+name;
 	}
 		if (address ==''){
 		document.getElementById('errorAddress').innerHTML = 'Hãy nhập địa chỉ!';
 		checkRegisterSuccess = false;
 	} else{
-  
+  		document.getElementById('errorAddress').innerHTML=' ';
 		document.getElementById('diachi').innerHTML='Địa chỉ: ' +address;
 	}
 		if (phone == ''){
